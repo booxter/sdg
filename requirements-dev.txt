@@ -2,14 +2,20 @@
 
 -r requirements.txt
 
+isort
 jsonschema
-llama-cpp-python[server]>=0.3.0,<1.0.0
-pre-commit>=3.0.4,<5.0
-pylint>=2.16.2,<4.0
+llama-cpp-python[server]>=0.3.0
+mypy
+pre-commit>=3.0.4
+pylint>=2.16.2
 pylint-pydantic
+pyspelling
 pytest
 pytest-asyncio
 pytest-cov
 pytest-html
+ruff
 starlette>=0.30.0
-tox>=4.4.2,<5
+tox>=4.4.2
+tox-gh
+types-PyYAML
